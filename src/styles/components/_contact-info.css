@@ -1,0 +1,84 @@
+#contact-info {
+  height: 88vh;
+  font-family: Inter;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 1vh 2vw;
+  border-left: 3px solid rgba(154, 154, 154, 0.09);
+}
+
+.contact-profile {
+  margin-bottom: 10vh;
+}
+
+.contact-profile .contact-name {
+  color: #000;
+  font-family: Jua;
+  font-size: large;
+  line-height: normal;
+}
+
+.contact-profile .contact-title {
+  color: #7c7c7c;
+  font-weight: 500;
+  font-size: small;
+  text-align: center;
+}
+
+.tabs {
+  height: 35px;
+  display: flex;
+  background: #eee;
+  font-family: Jua;
+  border-radius: 10px;
+  margin-bottom: 6vh;
+}
+
+.tabs .contact-tab {
+  width: 100px;
+  color: #555;
+  text-align: center;
+  line-height: 35px;
+  align-content: center;
+}
+.tabs .active-tab {
+  background: #44de6f;
+  border-radius: 10px;
+  color: #007521;
+}
+.contact-detail {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 19px 0;
+}
+.detail-title {
+  color: #7c7c7c;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.detail-subtitle {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.trailer {
+  width: 43.656px;
+  display: flex;
+  justify-content: center;
+  height: 35px;
+  flex-shrink: 0;
+  border-radius: 4px;
+}

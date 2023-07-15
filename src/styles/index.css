@@ -1,29 +1,50 @@
 @import url(./components/_myself.css);
 @import url(./components/_header.css);
-
-
-@font-face {
-    font-family: Jua;
-    src: url(/fonts/Jua-Regular.ttf);
-}
+@import url(./components/_contact-info.css);
+@import url(./components/_contacts-list.css);
 
 @font-face {
-    font-family: Inter;
-    src: url(/fonts/Inter-VariableFont_slnt\,wght.ttf);
+  font-family: Jua;
+  src: url(/fonts/Jua-Regular.ttf);
 }
 
+@font-face {
+  font-family: Inter;
+  src: url(/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
 
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-body{
-    background-color: #fefefe;
-    font-family: Inter;
+body {
+  background-color: #fefefe;
+  font-family: Inter;
+  position: fixed;
 }
-main{
-    padding: 1vh 1vw;
-    display: flex;
-    flex-direction: row;
+main {
+  padding: 1vh 1vw;
+  display: flex;
+  flex-direction: row;
+}
+#my-self {
+  width: 19.5vw;
+}
+#header {
+  width: 79.5vw;
+}
+#content {
+  display: flex;
+  flex-direction: row;
+}
+#contacts-list {
+  height: 90vh;
+  width: 50vw;
+  overflow: scroll;
+  
+}
+
+#contact-info {
+  width: 29.5vw;
 }
