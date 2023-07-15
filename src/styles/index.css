@@ -1,0 +1,29 @@
+@import url(./components/_myself.css);
+@import url(./components/_header.css);
+
+
+@font-face {
+    font-family: Jua;
+    src: url(/fonts/Jua-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #fefefe;
+    font-family: Inter;
+}
+main{
+    padding: 1vh 1vw;
+    display: flex;
+    flex-direction: row;
+}

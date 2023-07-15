@@ -1,0 +1,65 @@
+#my-self {
+  padding: 10px;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: antiquewhite; */
+  height: 98vh;
+  border-right: 3px solid rgba(154, 154, 154, 0.09);
+}
+.self-name {
+  color: #000;
+  font-family: Jua;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+  margin-bottom: 27px;
+}
+.self-profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 54px;
+}
+img.self-image {
+  width: 90px;
+  height: 90px;
+  flex-shrink: 0;
+  /* background: url(/public/images/user.png), lightgray 50% / cover no-repeat; */
+}
+.self-profile h4.my-fullname {
+  font-size: 25px;
+  font-family: Jua;
+  line-height: normal;
+}
+.self-profile .self-mail {
+  color: #7c7c7c;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.self-info-list {
+  width: 100%;
+  color: #7c7c7c;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.self-info-list .self-info{
+    height: 40px;
+}
+
+.self-info-list .self-info .icon{
+    margin-right: 10px;
+}
