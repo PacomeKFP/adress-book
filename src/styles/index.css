@@ -2,6 +2,7 @@
 @import url(./components/_header.css);
 @import url(./components/_contact-info.css);
 @import url(./components/_contacts-list.css);
+@import url(./components/_auth.css);
 
 @font-face {
   font-family: Jua;
@@ -13,13 +14,18 @@
   src: url(/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 
+@font-face {
+  font-family: Jakarta;
+  src: url(/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 body {
-  background-color: #fefefe;
+  background-color: #fafafa;
   font-family: Inter;
   position: fixed;
 }
@@ -42,7 +48,6 @@ main {
   height: 90vh;
   width: 50vw;
   overflow: scroll;
-  
 }
 
 #contact-info {

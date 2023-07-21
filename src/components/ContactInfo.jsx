@@ -1,4 +1,21 @@
+import { useState } from "react";
+
 export default function ContactInfo() {
+  const tabs = [
+    {
+      state: 0,
+      label: "Contact",
+    },
+    {
+      state: 1,
+      label: "Work",
+    },
+    {
+      state: 2,
+      label: "About",
+    },
+  ];
+  const [activeTab, setActiveTab] = useState(0);
   return (
     <div id="contact-info">
       <div className="contact-profile">
@@ -11,11 +28,20 @@ export default function ContactInfo() {
         <div className="contact-title">Best friend</div>
       </div>
 
-
       <div className="tabs">
-        <div className="contact-tab active-tab">Contact</div>
-        <div className="contact-tab ">Work</div>
-        <div className="contact-tab ">About</div>
+        {tabs.map((tab) => {
+          const key = tab.label + "-tab";
+          const class_name = activeTab === tab.state ? "active-tab" : " tab ";
+          return (
+            <div
+              className={"tab-item " + class_name}
+              onClick={() => setActiveTab(tab.state)}
+              key={key}
+            >
+              {tab.label}
+            </div>
+          );
+        })}
       </div>
 
       <div className="contact-details-list">
@@ -45,15 +71,15 @@ export default function ContactInfo() {
   );
 }
 
-function ContactDetail({ title, subtitle, trailer , link, color}) {
+function ContactDetail({ title, subtitle, trailer, link, color }) {
   return (
     <div className="contact-detail">
       <div className="detail-content">
         <div className="detail-title">{title}</div>
         <div className="detail-subtitle">{subtitle}</div>
       </div>
-      <div className="trailer" style={{backgroundColor:color}}>
-        <img src={trailer} alt="icon" className="trailer-icon" width="27px"/>
+      <div className="trailer" style={{ backgroundColor: color }}>
+        <img src={trailer} alt="icon" className="trailer-icon" width="27px" />
       </div>
     </div>
   );

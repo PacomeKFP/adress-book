@@ -1,9 +1,33 @@
 {
-    "user":{
-        "name":"Kengali Fegue",
-        "surname":"Pacome",
-        "email":"pacomekengafe@gmail.com",
-        "birthday":"29-06-2004",
-        "adress":"TKC, Yaoundé"
+  "users": [
+    {
+      "id": "",
+      "name": "Kengali Fegue",
+      "surname": "Pacome",
+      "email": "pacomekengafe@gmail.com",
+      "birthday": "29-06-2004",
+      "contacts":[
+        {   
+            "id":"",
+            "contact":{
+                "phone":"692397042",
+                "email":"pacomekengafe@gmail.com",
+                "chat": "wa.me/237692397042"
+            },
+            "work":{
+                "organization":"",
+                "role":"",
+                "website":""
+            },
+            "about":{
+                "birthday":"29-06-2004",
+                "country":"Cameroon",
+                "title":"Java developer"
+
+            }
+            
+        }
+      ]
     }
+  ]
 }

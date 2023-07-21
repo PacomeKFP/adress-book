@@ -37,7 +37,10 @@
   margin-bottom: 6vh;
 }
 
-.tabs .contact-tab {
+.tabs .tab-item {
+  /* transition-property: background-color; */
+  transition-duration: 100ms;
+  transition-timing-function: linear;
   width: 100px;
   color: #555;
   text-align: center;

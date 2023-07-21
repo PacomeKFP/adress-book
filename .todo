@@ -1,0 +1,18 @@
+[*] ecrire le routage de l'app
+
+[] creer la page d'auth
+    [*] creer le composant d'inscription
+    [*] creer le formulaire de connexion
+    [] ajouter l'interaction avec la bd
+
+[] connecter le **Myself** Component à l'API
+
+[] connecter le **ContactsList** Component à l'API
+
+[] ajouter le changement de contact en cours de visualisation (ContactInfo on/off)
+    lorsqu'on cliquue sur un contact, le composant s'ouvre avec ses infos
+
+[] ajouter le parcours d'info contact sur les tabs
+
+[] formulaire de creation d'un nouveau contact
+[] validation du formulaire et liasison à l'API
